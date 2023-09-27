@@ -1,0 +1,25 @@
+.spanSubrayada {
+    background-color:var(--verde);
+    margin: 5px;
+    text-decoration: line-through;
+    background-color: #d6fcd1;
+    border-radius: 8px;
+  }
+
+  .btn-custom {
+    font-size: 15px; 
+    padding: 5px 15px; 
+  }
+
+  a.sin-cursor {
+    cursor: auto;
+  }
+
+  .tarea {
+    transition: 0.5s all linear; 
+}
+
+  .tarea:hover{
+    transform: translateY(-3.0%);
+
+}

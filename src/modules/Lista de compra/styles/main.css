@@ -1,0 +1,40 @@
+.back{
+    width: 100vw;
+    height:auto ;
+    min-height: 70rem;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #9abce2 74%);
+  }
+  .brand{
+    justify-content: end;
+  }
+  .sesion{
+    justify-content: end;
+    text-align: end;
+    position: absolute;
+  }
+
+  @media only screen and (max-width:860px){
+    .back{
+      width: 100vw;
+      height:auto ;
+      min-height:70rem ;
+      background-color: #ffffff;
+      background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
+    }
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  } 
+  .spanSubrayada {
+  background-color:var(--verde);
+  margin: 5px;
+  text-decoration: line-through;
+  }
+  .pointer {
+  cursor: pointer;
+  }
+
